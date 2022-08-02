@@ -71,8 +71,8 @@ public static void main(String args[]) {
   int[][] maze = { { 2, 5, 7, 3, 1},
                    { 1,-1, 1, 1,-1},
                    {-1, 1, -1, 2, 1},
-                   { 3,-1, 1, -1, 2},
-                   {-1,-1,-1,-1, 0}};
+                   { 3,-1, 1, 3, 2},
+                   {-1,-1,-1, 1, 0}};
                             
   int n = maze.length;
   int m = maze.length;
